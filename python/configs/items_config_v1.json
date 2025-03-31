@@ -1,0 +1,32 @@
+{
+  "default": {
+    "quality_change": -1,
+    "after_sell_in_quality_change": -2,
+    "sell_in_change": -1,
+    "max_quality": 50
+  },
+  "Aged Brie": {
+    "quality_change": 1,
+    "after_sell_in_quality_change": 2,
+    "sell_in_change": -1,
+    "max_quality": 50
+  },
+  "Sulfuras": {
+    "quality_change": 0,
+    "after_sell_in_quality_change": 0,
+    "sell_in_change": 0,
+    "max_quality": 80
+  },
+  "Backstage passes": {
+    "quality_change": "lambda item: 1 if item.sell_in >= 10 else (2 if 5 < item.sell_in < 10 else 3)",
+    "after_sell_in_quality_change": -100,
+    "sell_in_change": -1,
+    "max_quality": 50
+  },
+  "Conjured": {
+    "quality_change": -2,
+    "after_sell_in_quality_change": -4,
+    "sell_in_change": -1,
+    "max_quality": 50
+  }
+}

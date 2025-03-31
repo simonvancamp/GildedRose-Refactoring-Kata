@@ -28,3 +28,4 @@ if __name__ == "__main__":
             print(item)
         print("")
         GildedRose(items).update_quality()
+

@@ -1,0 +1,8 @@
+{
+  "Legendary Item": {
+    "quality_change": 0,
+    "sell_in_change": 0,
+    "after_sell_in_quality_change": 0,
+    "max_quality": 50
+  }
+}
